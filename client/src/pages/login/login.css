@@ -1,0 +1,82 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.0),
+      rgba(255, 255, 255, 0.0)
+    ),
+    url("https://c4.wallpaperflare.com/wallpaper/551/358/346/baby-groot-hd-4k-superheroes-wallpaper-preview.jpg");
+  background-size: cover;
+}
+
+.logincontent{
+
+  background-color: rgba(0, 0, 0, 0.315);
+  padding: 20px 20px 20px 20px;
+
+  border-style: solid;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginTitle {
+  font-size: 100px;
+  color: aliceblue;
+  font-family: 'Lucida Handwriting';
+}
+
+.loginForm {
+  margin-top: 20px;
+  margin-left: -5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  border-style: solid;
+  font-size: 25px;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(97, 150, 240,0.7);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
